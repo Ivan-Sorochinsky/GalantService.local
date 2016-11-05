@@ -1,5 +1,14 @@
-<?php
-include_once "../forms/header.php";
-include_once "../forms/content.php";
-include_once "../forms/footer.php";
-?>
+<!doctype html>
+<html>
+<?php include "../forms/header.php" ?>
+<body>
+<div class="container">
+<div class="col-md-11">
+    <div class="work">
+        <br><br><br><br><br><br><br>
+    </div>
+</div>
+    </div>
+</body>
+<?php include "../forms/footer.php" ?>
+</html>
