@@ -19,15 +19,20 @@
 
 </head>
 <body>
+
+<div class="col-md-3 buttonhead">
+    <button type="button" class="btn btn-info"><b>Обратный звонок</b></button>
+    <button type="button" class="btn btn-info"><b>Закзать ремонт</b></button>
+    Ремонт любой сложности: +7(978)887-81-30
+</div>
+
 <header id="header">
     <div class="avada-row" style="padding-top:50px;padding-bottom:10px;" data-padding-top="50px" data-padding-bottom="10px">
         <div class="logo">
-            <a href="http://remkomp.by/blog">
+            <a href="#">
                 <img src="../images/logo2.png" alt="Ремонт компьютеров, ноутбуков, смартофнов и планшетов" class="normal_logo">
             </a>
         </div>
-
-
 
         <nav>
             <ul class="menu">
@@ -78,7 +83,7 @@
                 <div class="xoverlay-data">
                     <h2>Ремонт компьютеров</h2>
                     <p>- Диагностика и ремонт вашего железного друга</p>
-                    <p>- Програмная чистка / оптимизация</p>
+                    <p>- Программная чистка / оптимизация</p>
                     <a class="x-more"  href="#">Подробнее</a>
                 </div>
             </div>
@@ -203,12 +208,15 @@
                             <li><a href="mailto:Ivan.Sorochinsky@yandex.ru" class="link-dark"><i class="text-default fa fa-envelope-o pl-10 pr-5"></i> Ivan.Sorochinsky@yandex.ru</a></li>
                         </ul>
                         <div class="separator-2"></div>
-                        <ul class="social-links circle margin-clear animated-effect-1">
-                            <li class="facebook"><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-                            <li class="googleplus"><a target="_blank" href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
-                            <li class="youtube"><a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
-                        </ul>
                     </div>
+
+
+                    <!-- VK Widget -->
+                    <div id="vk_groups"></div>
+                    <script type="text/javascript">
+                        VK.Widgets.Group("vk_groups", {mode: 1, width: "500", color1: 'FAFAFA', color3: '000000'}, 127833690);
+                    </script>
+
                 </div>
                 <div class="col-md-6">
                     <div class="footer-content">
