@@ -307,6 +307,8 @@ body {
     background-color: #fff;
     font-weight: 300;
     background-image: url("../images/IMG_30311.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
 }
 
 

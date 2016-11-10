@@ -14,6 +14,7 @@
     <script src="//vk.com/js/api/openapi.js?122" type="text/javascript"></script>
     <script src="../js/jquery-3.1.1.js"></script>
     <script src="../js/menu.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
 </head>
 
